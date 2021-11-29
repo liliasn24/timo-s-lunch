@@ -1,0 +1,10 @@
+body {
+    background: #181A18;   /*black backfround color */
+    color: #fff;   /* font color */
+}
+
+.navbar {
+    border-bottom: #f9a825 3px solid; /* border orange color line */
+    opacity: 0.8;
+}
+
