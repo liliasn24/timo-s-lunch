@@ -1,6 +1,28 @@
 {
+  "engines": {
+    "node": "14.17.0"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "init": "^0.1.2"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "timo-lunch",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liliasn24/timo-s-lunch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liliasn24/timo-s-lunch/issues"
+  },
+  "homepage": "https://github.com/liliasn24/timo-s-lunch#readme",
+  "description": ""
 }
