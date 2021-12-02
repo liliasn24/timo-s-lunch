@@ -13,9 +13,10 @@
   
     <title>Timo's Lunch</title>
 </head>
-<body>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+<body data-spy="scroll" data-target="#main-nav" id="menu">
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
     <div class="container">
       <img src="public/img/logo.jpeg" width="50" height="50" alt="">
       <a href="index.html" class="navbar-brand">Timo's Lunch</a>
@@ -24,9 +25,6 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
-          </li>
           <li class="nav-item">
             <a href="#menu" class="nav-link">Menu</a>
           </li>
@@ -38,7 +36,7 @@
     </div>
   </nav>
 
-
+<section class="menu">
   <h2 class="mt-5 text-center">Coffee, Chocolate & Tea</h2>
   <ul>
     <li class="list">
@@ -179,18 +177,25 @@
   </li>
   </ul>
 
+</section>
 
 
 
+    <section>
       <div class="container text-center mt-5">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48363.58225345919!2d-73.98240799038075!3d40.74610068420867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259fc7582a661%3A0x69885546e0f2c3f0!2sTimo%20lunch!5e0!3m2!1sen!2sus!4v1638412720442!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
+    </section>
 
-
+    <footer>
       <div class="container text-center my-5">
-        <i class="fas fa-phone-alt">347-835-9266</i>
-        <i class="fas fa-clock">Mon-Sat: 06:00 AM - 16:00 PM</i>
+        <i class="fas fa-phone-alt"></i>
+        <p class="display-6">347-835-9266</p>
+        <i class="fas fa-clock"></i>
+        <p class="display-6">Mon-Sat: 06:00 AM - 16:00 PM</p>
       </div>
+    </footer>
+
 
       
 
