@@ -17,7 +17,7 @@ h2, h5 {
 
 ul {
   list-style-type: none;
-  width: 90%;
+  width: 85%;
   margin: auto;
   padding: 0;
 }
@@ -57,4 +57,8 @@ ul {
 
 a:hover {
   color: white;
+}
+
+p {
+  font-size: 11px;
 }
