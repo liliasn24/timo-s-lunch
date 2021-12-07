@@ -62,3 +62,8 @@ a:hover {
 p {
   font-size: 10px;
 }
+
+.phone {
+  display: block;
+  color: white;
+}
